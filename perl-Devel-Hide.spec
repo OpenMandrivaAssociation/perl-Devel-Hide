@@ -42,22 +42,3 @@ perl Makefile.PL INSTALLDIRS=vendor
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
 
-%changelog
-* Sat Apr 16 2011 Funda Wang <fwang@mandriva.org> 1:0.0.800-2mdv2011.0
-+ Revision: 653407
-- rebuild for updated spec-helper
-
-* Sun Feb 14 2010 Jérôme Quelin <jquelin@mandriva.org> 1:0.0.800-1mdv2011.0
-+ Revision: 505729
-- bump epoch
-- rebuild using %%perl_convert_version
-
-* Fri May 15 2009 Jérôme Quelin <jquelin@mandriva.org> 0.0008-1mdv2010.0
-+ Revision: 376243
-- import perl-Devel-Hide
-
-
-* Fri May 15 2009 cpan2dist 0.0008-1mdv
-- initial mdv release, generated with cpan2dist
-
-
