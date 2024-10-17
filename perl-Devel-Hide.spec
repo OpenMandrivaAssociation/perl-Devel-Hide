@@ -9,7 +9,7 @@ Epoch:		1
 Summary:	Forces the unavailability of specified Perl modules (for testing)
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Devel/Devel-Hide-%{upstream_version}.tar.gz
 
 BuildRequires:	perl(Test)
