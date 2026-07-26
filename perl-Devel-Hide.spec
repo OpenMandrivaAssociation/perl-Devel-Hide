@@ -1,16 +1,14 @@
 %define upstream_name    Devel-Hide
-%define upstream_version 0.0009
-
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	0.0009
+Release:	4
 Epoch:		1
 
 Summary:	Forces the unavailability of specified Perl modules (for testing)
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Devel/Devel-Hide-%{upstream_version}.tar.gz
+Url:		https://metacpan.org/dist/%{upstream_name}
+Source0:	http://www.cpan.org/modules/by-module/Devel/Devel-Hide-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl(Test)
@@ -28,7 +26,7 @@ They _die_ with a message like:
     Can't locate Module/ToHide.pm (hidden)
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
