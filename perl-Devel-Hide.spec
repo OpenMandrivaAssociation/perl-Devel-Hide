@@ -1,14 +1,15 @@
 %define upstream_name    Devel-Hide
+%define upstream_version 0.0016
 Name:		perl-%{upstream_name}
-Version:	0.0009
-Release:	4
+Version:	0.0016
+Release:	1
 Epoch:		1
 
 Summary:	Forces the unavailability of specified Perl modules (for testing)
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Devel/Devel-Hide-%{version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/D/DC/DCANTRELL/Devel-Hide-0.0016.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl(Test)
